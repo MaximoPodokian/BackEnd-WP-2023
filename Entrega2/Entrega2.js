@@ -49,10 +49,9 @@ const deleteProduct = async (id) => {
     await fs.writeFile('./productos.txt', JSON.stringify(prods))
 }
 
-const product = { nombre: "Vino", tipo: "Malbec", id: 3 }
+const product = { nombre: "Vino", id: 1 }
 
 //addProduct(product)
-//getProducts()
-//getProductById(3)
+//getProducts(getProductById(3)
 //updateProduct(4, { nombre: "Vino" })
-//deleteProduct(2)
+//deleteProduct(3)
